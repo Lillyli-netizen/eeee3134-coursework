@@ -1,0 +1,69 @@
+{
+  "method": "Offline decision replay using source_snapshot_fixed; original network client replaced",
+  "cases": [
+    {
+      "experiment": 4,
+      "seed": 1,
+      "ego_travel_time_s": 632.3000000000001,
+      "fleet_min_ttc_s": 1.05,
+      "ego_min_ttc_s": 2.8236700218437147,
+      "planner_calls": 35,
+      "observation_mismatches": 0,
+      "execution_trace_records_matched": 633,
+      "no_network_calls": true
+    },
+    {
+      "experiment": 2,
+      "seed": 1,
+      "ego_travel_time_s": 315.6,
+      "fleet_min_ttc_s": 0.76,
+      "ego_min_ttc_s": 2.834372289652467,
+      "planner_calls": 16,
+      "observation_mismatches": 0,
+      "execution_trace_records_matched": 316,
+      "no_network_calls": true,
+      "event": {
+        "time_s": 996.9000000000001,
+        "follower_id": 665,
+        "leader_id": 664,
+        "follower_position_m": 53.99999999999997,
+        "gap_m": 4.558216057536221,
+        "follower_speed_mps": 5.999999999999981,
+        "leader_speed_mps": 0.0,
+        "ttc_s": 0.7597026762560392,
+        "ego_involved": false
+      }
+    }
+  ],
+  "metrics_sha256": "9ee6756a4d436b9809e29b4a5d9728ce777250cedcc4dc0b1d4c166b3970651c",
+  "fixed_source_sha256": {
+    "analyze_paired.py": "0d5328a13dcf51bf6e0fa75d443e7dfbcdbeae626a45b52f1cbef15efc39d62d",
+    "check_qwen.py": "9596f4bfcd7975e1398b87d6934f6cc30bcb0fb23b857b27a448d2798337536f",
+    "config.py": "cfd58542cc7be02292ce778fbd8454375d09fc0851accdfb279f6006137bed48",
+    "debug_brakes.py": "01f98d0e1848191f1e4f4013c4b13c3953c38d784c66cc105459ae05821b3ba2",
+    "debug_jam.py": "94b564365a3e45d214fb0b0051c7451cb937f4bddfbf396aa212a466393b067b",
+    "debug_overlap.py": "d3085697527cd011ce6e6cb5c28c2208fadede939e61c8284ae376a83ebe6afe",
+    "diagnose_entry.py": "a7afa0483686b99ab6154c24238777d47a9b1aa779832addf5e2117309ff9b76",
+    "llm_client.py": "c7aed01c33cf3547f87dd6a95f8a943c5a2494269d7266d276f50806e9e2d06c",
+    "main.py": "75e482d50456ae93fd73e7c3e0858d129c40eca09115d883ca78185535127550",
+    "make_manifest.py": "298d377315a27ebc3f3db9cb2576e014dd3f03db65a37fcb8df1a131a21faed6",
+    "make_qwen_figure.py": "88b2a34dc67f8887212dfcbbf8c0cd482c2629b434f150029c34126bde17f93c",
+    "make_report_figures.py": "8e224d560a8a7456a6048006fc8c235cb974729b20dccfee96f052de9133810b",
+    "metrics.py": "7d025750fed1fa9d4813c44c23837b12b36aedf42e757631395fe1e72a420d3f",
+    "noise.py": "e0708f79dbd68802b88238c8f55220d4e0d5e1f410545fb2ddec7a2cce0d4973",
+    "plotting.py": "1c682b58b61dacb4ded757d7dd43c81df971612a07ae60bc773672531952dd5c",
+    "run_comparison.py": "353ed68939a4f1060ca9d1199801f9b493a2dc8d6fb9d944f8bdbbe661e13d23",
+    "run_qwen_real.py": "043f3700595ae00ce2a2a7c3983f2f1862339f12dbe0b00b843224321671aa29",
+    "simulator.py": "478cb435a8837eb9ea0131b97c6427f98ed444aab37c900e7bd0b1b164524c63",
+    "summarize_qwen_real.py": "0e2e41392e3e7c6179ab75adc2448196ef64d172a939a1cbea94fd3fef02f0ca",
+    "summarize_results.py": "f69618a1707835fdc0f622d8ae8e89ceab1b838e0227f3b78f883fc1516c3d26",
+    "test_fixes.py": "b4d34e1259f06355eecd89800782affb794a9a3611f1d6522735b87d8a7e9231",
+    "test_simulation.py": "4993c9542dbcdf0faf525116e0f3367cbfde009bef0d5906c2f69cc5a5ff24f6",
+    "vehicle.py": "ce2ea52885754d5f543828f19113444fcc1320f1e9300b5c2e41d91b8f640a3e",
+    "vehicle_idm.py": "392628fcf57a951a117ac2e233ad95dbd84aa6ce3dd56bf8088c601908900a51",
+    "vehicle_knn.py": "bbfd4d47f6d0689946b2157dac82123706437d5c6931b423b3e65e6f17c8853a",
+    "vehicle_llm.py": "c273ada3c7b3a4cc823fe96e8c92dc22eb76520cadd4971d0c6d4d25263e7ae3",
+    "vehicle_llm_direct.py": "f080c783d59821ac3817720b15c78bec96dbd78b964436ee1c0ec210595a9228"
+  },
+  "table_4_in_pre_update_markdown_already_matched_metrics": true
+}

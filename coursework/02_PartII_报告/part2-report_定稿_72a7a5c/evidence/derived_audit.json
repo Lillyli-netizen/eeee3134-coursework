@@ -1,0 +1,85 @@
+{
+  "source": "Supplied 20261109 raw decisions; no new paid API calls",
+  "attempts": 189,
+  "successful": 185,
+  "failed": 4,
+  "success_duration_s": 113.758,
+  "failure_duration_s": 40.04,
+  "all_duration_s": 153.798,
+  "mean_duration_per_attempt_s": 0.8137460317460318,
+  "failures": [
+    {
+      "experiment": 1,
+      "seed": 2,
+      "t": 329.3,
+      "latency_s": 10.015,
+      "error": "non-dict decision: NoneType"
+    },
+    {
+      "experiment": 2,
+      "seed": 2,
+      "t": 297.8,
+      "latency_s": 10.002,
+      "error": "non-dict decision: NoneType"
+    },
+    {
+      "experiment": 3,
+      "seed": 2,
+      "t": 409.3,
+      "latency_s": 10.012,
+      "error": "non-dict decision: NoneType"
+    },
+    {
+      "experiment": 4,
+      "seed": 2,
+      "t": 327.3,
+      "latency_s": 10.011,
+      "error": "non-dict decision: NoneType"
+    }
+  ],
+  "ego_differences": [
+    {
+      "experiment": 1,
+      "seed": 1,
+      "difference_s": 2.2999999999999545
+    },
+    {
+      "experiment": 1,
+      "seed": 2,
+      "difference_s": 2.5
+    },
+    {
+      "experiment": 2,
+      "seed": 1,
+      "difference_s": 2.1999999999999886
+    },
+    {
+      "experiment": 2,
+      "seed": 2,
+      "difference_s": 2.599999999999909
+    },
+    {
+      "experiment": 3,
+      "seed": 1,
+      "difference_s": 63.0
+    },
+    {
+      "experiment": 3,
+      "seed": 2,
+      "difference_s": 4.599999999999966
+    },
+    {
+      "experiment": 4,
+      "seed": 1,
+      "difference_s": 102.30000000000007
+    },
+    {
+      "experiment": 4,
+      "seed": 2,
+      "difference_s": 30.399999999999864
+    }
+  ],
+  "difference_mean_s": 26.23749999999997,
+  "difference_median_s": 3.5999999999999375,
+  "difference_max_s": 102.30000000000007
+}

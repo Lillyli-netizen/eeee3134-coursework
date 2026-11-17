@@ -1,0 +1,98 @@
+{
+  "budget": 250,
+  "total_api_calls": 189,
+  "total_api_failures": 4,
+  "total_api_latency_s": 113.7,
+  "mean_latency_s": 0.6,
+  "runs": [
+    {
+      "experiment": 1,
+      "seed": 1,
+      "api_calls_cumulative": 15,
+      "api_failures_cumulative": 0,
+      "wall_seconds": 24.0,
+      "model": [
+        "qwen-flash"
+      ],
+      "prompt_version": "v2-tuned-2026-11"
+    },
+    {
+      "experiment": 1,
+      "seed": 2,
+      "api_calls_cumulative": 30,
+      "api_failures_cumulative": 1,
+      "wall_seconds": 31.5,
+      "model": [
+        "qwen-flash"
+      ],
+      "prompt_version": "v2-tuned-2026-11"
+    },
+    {
+      "experiment": 2,
+      "seed": 1,
+      "api_calls_cumulative": 46,
+      "api_failures_cumulative": 1,
+      "wall_seconds": 28.1,
+      "model": [
+        "qwen-flash"
+      ],
+      "prompt_version": "v2-tuned-2026-11"
+    },
+    {
+      "experiment": 2,
+      "seed": 2,
+      "api_calls_cumulative": 61,
+      "api_failures_cumulative": 2,
+      "wall_seconds": 35.4,
+      "model": [
+        "qwen-flash"
+      ],
+      "prompt_version": "v2-tuned-2026-11"
+    },
+    {
+      "experiment": 3,
+      "seed": 1,
+      "api_calls_cumulative": 95,
+      "api_failures_cumulative": 2,
+      "wall_seconds": 45.2,
+      "model": [
+        "qwen-flash"
+      ],
+      "prompt_version": "v2-tuned-2026-11"
+    },
+    {
+      "experiment": 3,
+      "seed": 2,
+      "api_calls_cumulative": 124,
+      "api_failures_cumulative": 3,
+      "wall_seconds": 54.4,
+      "model": [
+        "qwen-flash"
+      ],
+      "prompt_version": "v2-tuned-2026-11"
+    },
+    {
+      "experiment": 4,
+      "seed": 1,
+      "api_calls_cumulative": 159,
+      "api_failures_cumulative": 3,
+      "wall_seconds": 91.9,
+      "model": [
+        "qwen-flash"
+      ],
+      "prompt_version": "v2-tuned-2026-11"
+    },
+    {
+      "experiment": 4,
+      "seed": 2,
+      "api_calls_cumulative": 189,
+      "api_failures_cumulative": 4,
+      "wall_seconds": 68.6,
+      "model": [
+        "qwen-flash"
+      ],
+      "prompt_version": "v2-tuned-2026-11"
+    }
+  ],
+  "note": "Synchronous client: the Python process blocks during each call but simulation time does not advance. Results describe a zero-latency planner; real communication delay is NOT tested."
+}

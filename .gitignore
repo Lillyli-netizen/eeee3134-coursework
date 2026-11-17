@@ -1,0 +1,35 @@
+# 大文件与产物
+99_归档/
+001liyueyi/
+1k/
+5k/
+10k/
+NewFolder*/
+*.zip
+*.7z
+
+# 图片与动画（已嵌入 docx）
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.mp4
+*.webp
+
+# 原始仿真结果（只保留汇总 metrics）
+results/
+_旧版本归档/
+__pycache__/
+*.pyc
+
+# 密钥
+.env.keys
+.env
+
+# 网页仓库（已在独立仓库托管）
+coursework/01_PartI_网页/version1/
+coursework/01_PartI_网页/version2/
+
+# 临时文件
+NewFile*.csv
+*_csv.txt
