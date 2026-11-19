@@ -1,0 +1,41 @@
+{
+  "status": "technical process additions for review",
+  "checks": {
+    "base": "repository v15 补充缓存段",
+    "base_git_blob_sha": "51e3b5b75d3b0d61db3dfadf97ab04fb1a12ba20",
+    "added_sections": [
+      "4.6  轨迹过密时的可视化调整",
+      "4.7  模型覆盖有限后的补测安排"
+    ],
+    "existing_paragraph_text_unchanged": true,
+    "personal_reflections_unchanged": true,
+    "all_tables_unchanged": true,
+    "all_images_unchanged": true,
+    "formula_content_unchanged": true,
+    "no_new_experiments_or_payments_executed": true,
+    "input_sha256": "4891e1c0925befaa6833c3bc06a973b0b5aa4224a74075414ea716033eeff21e",
+    "pdf_pages": 27,
+    "new_sections_on_pdf_pages": [
+      25
+    ],
+    "pdf_page_bounds_checked": true
+  },
+  "files": {
+    "新增过程问题与修改说明.md": {
+      "bytes": 2494,
+      "sha256": "33ca4b2a2bef3c0a060d3fc1dd4b410945685c90c65e9b0b96660a97b657f1b6"
+    },
+    "README.md": {
+      "bytes": 750,
+      "sha256": "35a2ee3c18a3de51efc36cb47ddca55d21874f61de24a794628826f125704d7a"
+    },
+    "EEEE3134_Coursework_20905083_LI_Yueyi_v15_补充过程问题.pdf": {
+      "bytes": 4036070,
+      "sha256": "47abfb01d7d2b984f85a6b363dccf33f6898307f5a0d346f57552b823a26f209"
+    },
+    "EEEE3134_Coursework_20905083_LI_Yueyi_v15_补充过程问题.docx": {
+      "bytes": 7168165,
+      "sha256": "9d6e87b24aea8905965e06ce6a47434af1f09eecd94dbcb50a5e4fc316948f2c"
+    }
+  }
+}
