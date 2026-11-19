@@ -1,0 +1,33 @@
+{
+  "budget": 60,
+  "stopped_early": false,
+  "total_api_calls": 45,
+  "total_api_failures": 1,
+  "total_api_latency_s": 47.2,
+  "mean_latency_s": 1.05,
+  "runs": [
+    {
+      "experiment": 1,
+      "seed": 1,
+      "api_calls_cumulative": 13,
+      "api_failures_cumulative": 0,
+      "wall_seconds": 29.4,
+      "model": [
+        "deepseek-chat"
+      ],
+      "prompt_version": "v2-tuned-2026-11"
+    },
+    {
+      "experiment": 4,
+      "seed": 1,
+      "api_calls_cumulative": 45,
+      "api_failures_cumulative": 1,
+      "wall_seconds": 71.5,
+      "model": [
+        "deepseek-chat"
+      ],
+      "prompt_version": "v2-tuned-2026-11"
+    }
+  ],
+  "note": "Synchronous client: the Python process blocks during each call but simulation time does not advance. Results describe a zero-latency planner; real communication delay is NOT tested."
+}
