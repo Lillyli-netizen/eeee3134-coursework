@@ -1,16 +1,61 @@
 {
-  "status": "review draft, not final submission",
+  "active_version": "v5 unified cover",
+  "status": "review draft; personal reflection and conclusions remain author-only work",
   "checks": {
-    "report_pages": 26,
-    "images_byte_identical": 8,
-    "protected_reflection_paragraphs_unchanged": 18,
-    "experiment_table_values_unchanged": true,
-    "figure_numbers_sequential": true,
-    "comments": 16,
-    "page_content_outside_bounds": false,
-    "cover_links_clickable_in_pdf": true,
-    "guide_word_opens": true,
-    "math_formula_content_preserved": 3
+    "chapter_text_unchanged": true,
+    "experiment_tables_unchanged": true,
+    "formula_content_unchanged": true,
+    "existing_comments_preserved": 16,
+    "research_images_preserved": 8,
+    "official_logo_added": true,
+    "one_cover": true,
+    "part_headings": [
+      "Part I  个人网页开发与评估",
+      "Part II  大语言模型辅助的纵向跟驰控制"
+    ],
+    "input_sha256": "27103bee10dec017cea1e9a0ad98e422ec084e4bcb1f0faafab3c939b91e3b4d",
+    "output_sha256": "b4cbe41e5745ff4f18a3eb201939078c42ad0c4efa3a22707cae0a81c8a72bc7",
+    "pdf_pages": 25,
+    "cover_only_on_first_page": true,
+    "both_webpage_links_clickable_on_cover": true,
+    "two_parent_parts_in_pdf_bookmarks": true,
+    "research_image_bytes_preserved": 8,
+    "no_text_outside_pdf_pages": true
+  },
+  "versions": {
+    "v4_technical_revision": {
+      "report_pages": 26,
+      "images_byte_identical": 8,
+      "protected_reflection_paragraphs_unchanged": 18,
+      "experiment_table_values_unchanged": true,
+      "figure_numbers_sequential": true,
+      "comments": 16,
+      "page_content_outside_bounds": false,
+      "cover_links_clickable_in_pdf": true,
+      "guide_word_opens": true,
+      "math_formula_content_preserved": 3
+    },
+    "v5_unified_cover": {
+      "chapter_text_unchanged": true,
+      "experiment_tables_unchanged": true,
+      "formula_content_unchanged": true,
+      "existing_comments_preserved": 16,
+      "research_images_preserved": 8,
+      "official_logo_added": true,
+      "one_cover": true,
+      "part_headings": [
+        "Part I  个人网页开发与评估",
+        "Part II  大语言模型辅助的纵向跟驰控制"
+      ],
+      "input_sha256": "27103bee10dec017cea1e9a0ad98e422ec084e4bcb1f0faafab3c939b91e3b4d",
+      "output_sha256": "b4cbe41e5745ff4f18a3eb201939078c42ad0c4efa3a22707cae0a81c8a72bc7",
+      "pdf_pages": 25,
+      "cover_only_on_first_page": true,
+      "both_webpage_links_clickable_on_cover": true,
+      "two_parent_parts_in_pdf_bookmarks": true,
+      "research_image_bytes_preserved": 8,
+      "no_text_outside_pdf_pages": true
+    }
   },
   "files": {
     "EEEE3134_Coursework_20905083_LI_Yueyi_v4_技术正文修订稿.docx": {
@@ -21,9 +66,17 @@
       "bytes": 3911530,
       "sha256": "50b2bc3c64403544e23e7b329ea00f35b9829a1eb604256437e897ec4e763d65"
     },
+    "EEEE3134_Coursework_20905083_LI_Yueyi_v5_统一封面.docx": {
+      "bytes": 6692619,
+      "sha256": "b4cbe41e5745ff4f18a3eb201939078c42ad0c4efa3a22707cae0a81c8a72bc7"
+    },
+    "EEEE3134_Coursework_20905083_LI_Yueyi_v5_统一封面.pdf": {
+      "bytes": 3922054,
+      "sha256": "c001b655b7781214383b73c85941424fa7d9635a0aa314fff0d061c10d6969aa"
+    },
     "README.md": {
-      "bytes": 1136,
-      "sha256": "187fc0af8f333632e03ea4942a0de4781ae50619d18fac2e120d0c37959dcbc5"
+      "bytes": 1281,
+      "sha256": "5b07836be06c10ec0769fe84352ac9b3d85845ca79cd46a294fca6e7156fd3ac"
     },
     "修改说明与个人反思核对清单.docx": {
       "bytes": 42661,
@@ -32,6 +85,10 @@
     "修改说明与个人反思核对清单.md": {
       "bytes": 9338,
       "sha256": "9465a2f267cedb17191097d63e4b7ea9c7501e2e1d1b25606690b9083de0df90"
+    },
+    "封面修改说明.md": {
+      "bytes": 1027,
+      "sha256": "28abb9a622a06b4a6994af673fbfef4961bee0472b3aea23e2780688dd2d32ca"
     }
   }
 }
