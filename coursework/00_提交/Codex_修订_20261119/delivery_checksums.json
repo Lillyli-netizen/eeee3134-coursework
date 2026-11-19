@@ -1,26 +1,29 @@
 {
-  "active_version": "v5 unified cover",
-  "status": "review draft; personal reflection and conclusions remain author-only work",
+  "active_version": "v6 integrated reflection editing reference",
+  "status": "review draft; AI-assisted reflection editing reference, pending independent author finalisation",
   "checks": {
-    "chapter_text_unchanged": true,
-    "experiment_tables_unchanged": true,
-    "formula_content_unchanged": true,
-    "existing_comments_preserved": 16,
-    "research_images_preserved": 8,
-    "official_logo_added": true,
-    "one_cover": true,
-    "part_headings": [
-      "Part I  个人网页开发与评估",
-      "Part II  大语言模型辅助的纵向跟驰控制"
+    "base_version": "v5",
+    "only_partII_section5_text_changed": true,
+    "new_reflection_paragraphs": 9,
+    "old_reflection_paragraphs": 6,
+    "model_names": [
+      "deepseek-chat",
+      "glm-4.6",
+      "kimi-k3"
     ],
-    "input_sha256": "27103bee10dec017cea1e9a0ad98e422ec084e4bcb1f0faafab3c939b91e3b4d",
-    "output_sha256": "b4cbe41e5745ff4f18a3eb201939078c42ad0c4efa3a22707cae0a81c8a72bc7",
-    "pdf_pages": 25,
-    "cover_only_on_first_page": true,
-    "both_webpage_links_clickable_on_cover": true,
-    "two_parent_parts_in_pdf_bookmarks": true,
-    "research_image_bytes_preserved": 8,
-    "no_text_outside_pdf_pages": true
+    "other_chapter_text_unchanged": true,
+    "tables_unchanged": 9,
+    "images_including_official_logo_unchanged": 9,
+    "formula_blocks_unchanged": 3,
+    "comments_after_removing_obsolete_notes": 10,
+    "obsolete_comments_removed": 7,
+    "review_draft_marker_retained": true,
+    "output_sha256": "ff345119b4dc83a1e5131c3c0687d7f314b97e1d664a81e6a463dfd394900aa9",
+    "pdf_pages": 26,
+    "cover_links_clickable": true,
+    "part_hierarchy_preserved": true,
+    "page_layout_bounds_checked": true,
+    "appendix_kept_together": true
   },
   "versions": {
     "v4_technical_revision": {
@@ -55,6 +58,30 @@
       "two_parent_parts_in_pdf_bookmarks": true,
       "research_image_bytes_preserved": 8,
       "no_text_outside_pdf_pages": true
+    },
+    "v6_integrated_reflection": {
+      "base_version": "v5",
+      "only_partII_section5_text_changed": true,
+      "new_reflection_paragraphs": 9,
+      "old_reflection_paragraphs": 6,
+      "model_names": [
+        "deepseek-chat",
+        "glm-4.6",
+        "kimi-k3"
+      ],
+      "other_chapter_text_unchanged": true,
+      "tables_unchanged": 9,
+      "images_including_official_logo_unchanged": 9,
+      "formula_blocks_unchanged": 3,
+      "comments_after_removing_obsolete_notes": 10,
+      "obsolete_comments_removed": 7,
+      "review_draft_marker_retained": true,
+      "output_sha256": "ff345119b4dc83a1e5131c3c0687d7f314b97e1d664a81e6a463dfd394900aa9",
+      "pdf_pages": 26,
+      "cover_links_clickable": true,
+      "part_hierarchy_preserved": true,
+      "page_layout_bounds_checked": true,
+      "appendix_kept_together": true
     }
   },
   "files": {
@@ -74,9 +101,25 @@
       "bytes": 3922054,
       "sha256": "c001b655b7781214383b73c85941424fa7d9635a0aa314fff0d061c10d6969aa"
     },
+    "EEEE3134_Coursework_20905083_LI_Yueyi_v6_统一封面_更新反思.docx": {
+      "bytes": 6692025,
+      "sha256": "ff345119b4dc83a1e5131c3c0687d7f314b97e1d664a81e6a463dfd394900aa9"
+    },
+    "EEEE3134_Coursework_20905083_LI_Yueyi_v6_统一封面_更新反思.pdf": {
+      "bytes": 3922103,
+      "sha256": "3258ec36847705f0894a0f89f6747d3e6eafd0210ac216f66246b11594c0950c"
+    },
+    "PartII_个人反思_编辑参考稿_含模型名称.md": {
+      "bytes": 4230,
+      "sha256": "df61b52f3a56233bef90e5eacbdcd38d41bf94c246f0a8b0b56a9db44b00baf6"
+    },
     "README.md": {
-      "bytes": 1281,
-      "sha256": "5b07836be06c10ec0769fe84352ac9b3d85845ca79cd46a294fca6e7156fd3ac"
+      "bytes": 2176,
+      "sha256": "ae00482512a4a6c735f7a5fae3c599b80053a3c87913a84b262dafd09122324a"
+    },
+    "v6_修改说明.md": {
+      "bytes": 677,
+      "sha256": "f041509ed6c329e82c0f682646cfdc8d93f56a09bfcb2e3515701c08b5cc5d13"
     },
     "修改说明与个人反思核对清单.docx": {
       "bytes": 42661,
