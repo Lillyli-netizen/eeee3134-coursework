@@ -1,0 +1,37 @@
+{
+  "status": "review draft, not final submission",
+  "checks": {
+    "report_pages": 26,
+    "images_byte_identical": 8,
+    "protected_reflection_paragraphs_unchanged": 18,
+    "experiment_table_values_unchanged": true,
+    "figure_numbers_sequential": true,
+    "comments": 16,
+    "page_content_outside_bounds": false,
+    "cover_links_clickable_in_pdf": true,
+    "guide_word_opens": true,
+    "math_formula_content_preserved": 3
+  },
+  "files": {
+    "EEEE3134_Coursework_20905083_LI_Yueyi_v4_技术正文修订稿.docx": {
+      "bytes": 6639747,
+      "sha256": "27103bee10dec017cea1e9a0ad98e422ec084e4bcb1f0faafab3c939b91e3b4d"
+    },
+    "EEEE3134_Coursework_20905083_LI_Yueyi_v4_技术正文修订稿.pdf": {
+      "bytes": 3911530,
+      "sha256": "50b2bc3c64403544e23e7b329ea00f35b9829a1eb604256437e897ec4e763d65"
+    },
+    "README.md": {
+      "bytes": 1136,
+      "sha256": "187fc0af8f333632e03ea4942a0de4781ae50619d18fac2e120d0c37959dcbc5"
+    },
+    "修改说明与个人反思核对清单.docx": {
+      "bytes": 42661,
+      "sha256": "b550a54b3ef5de8420cfe19a66b01aee0f1b2ea6ed49ec172e6206df7e5d7f53"
+    },
+    "修改说明与个人反思核对清单.md": {
+      "bytes": 9338,
+      "sha256": "9465a2f267cedb17191097d63e4b7ea9c7501e2e1d1b25606690b9083de0df90"
+    }
+  }
+}
