@@ -1,0 +1,103 @@
+{
+  "source_commit": "934e940",
+  "review": {
+    "issues": 55,
+    "P1_fixed": 14,
+    "P1_source_issues_not_changed": 4,
+    "P2_not_changed": 37,
+    "paragraph_pairs_reviewed": 221,
+    "original_tables_reviewed": 10
+  },
+  "checks": {
+    "zh": {
+      "source_commit": "934e940",
+      "body_paragraphs_reviewed": 221,
+      "original_tables_reviewed": 10,
+      "added_cover_tables": 1,
+      "all_original_paragraph_numeric_tokens_preserved": true,
+      "all_original_tables_byte_preserved": true,
+      "all_fldChar_byte_preserved": 42,
+      "TOC_instructions_preserved": true,
+      "all_formula_xml_preserved": true,
+      "all_other_package_parts_byte_preserved": true,
+      "core_properties_byte_preserved": true,
+      "author": "李月艺",
+      "last_modified_by": "李月艺",
+      "original_stored_pages": 27,
+      "v25_actual_pages": "未排版计算；需 Word 更新域和分页确认",
+      "logo_extent_preserved": {
+        "cx": "1584000",
+        "cy": "583952"
+      },
+      "hyperlink_urls": [
+        "https://lillyli-netizen.github.io/AI-generated-page/",
+        "https://lillyli-netizen.github.io/Me-designed-page/"
+      ],
+      "changed_parts": [
+        "word/document.xml",
+        "word/_rels/document.xml.rels"
+      ]
+    },
+    "en": {
+      "source_commit": "934e940",
+      "body_paragraphs_reviewed": 221,
+      "original_tables_reviewed": 10,
+      "added_cover_tables": 1,
+      "all_original_paragraph_numeric_tokens_preserved": true,
+      "all_original_tables_byte_preserved": true,
+      "all_fldChar_byte_preserved": 42,
+      "TOC_instructions_preserved": true,
+      "all_formula_xml_preserved": true,
+      "all_other_package_parts_byte_preserved": true,
+      "core_properties_byte_preserved": true,
+      "author": "李月艺",
+      "last_modified_by": "李月艺",
+      "original_stored_pages": 31,
+      "v25_actual_pages": "未排版计算；需 Word 更新域和分页确认",
+      "logo_extent_preserved": {
+        "cx": "1584000",
+        "cy": "583952"
+      },
+      "hyperlink_urls": [
+        "https://lillyli-netizen.github.io/AI-generated-page/",
+        "https://lillyli-netizen.github.io/Me-designed-page/"
+      ],
+      "changed_parts": [
+        "word/document.xml",
+        "word/_rels/document.xml.rels"
+      ]
+    }
+  },
+  "pagination_reference_only": {
+    "zh": {
+      "baseline_actual_pdf_pages": 27,
+      "abstract_content_bottom_pt": 278.2,
+      "body_bottom_pt": 770,
+      "space_below_abstract_pt": 491.8,
+      "estimated_added_link_block_max_pt": 90,
+      "static_abstract_one_page_margin_pt": 401.8
+    },
+    "en": {
+      "baseline_actual_pdf_pages": 31,
+      "abstract_content_bottom_pt": 370.8,
+      "body_bottom_pt": 770,
+      "space_below_abstract_pt": 399.2,
+      "estimated_added_link_block_max_pt": 90,
+      "static_abstract_one_page_margin_pt": 309.2
+    }
+  },
+  "files": {
+    "translation_review_v25.md": {
+      "bytes": 45499,
+      "sha256": "c07e6c8d3dfb89a9dd851e6ba272637dff2fa44a05b8d28952f7d0ffc89cb8d3"
+    },
+    "最终稿_v25_英文/EEEE3134_Coursework_20905083_LI_Yueyi_English_v25.docx": {
+      "bytes": 7166318,
+      "sha256": "c62ac49644b4b09a2ec73076cd623693294fda67bd3009b75915cf4a153cfb96"
+    },
+    "最终稿_v25_中文/EEEE3134_Coursework_20905083_LI_Yueyi_中文版_v25.docx": {
+      "bytes": 7173038,
+      "sha256": "e054aeb849b2baa0c93a1681228d05944fc3f69dd0a4d7eda6a5f9f70cadf8de"
+    }
+  }
+}
