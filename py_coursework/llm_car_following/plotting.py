@@ -68,7 +68,14 @@ def plot_time_space_diagram(
             linewidth=1.8,
             label=f"Reference wave ({config.reference_wave_speed_kmh:g} km/h)",
         )
-        ax.legend(frameon=False)
+        ax.legend(
+            loc="upper left",
+            frameon=True,
+            facecolor="white",
+            edgecolor="0.7",
+            framealpha=0.95,
+            borderpad=0.45,
+        )
 
     ax.set_xlim(0.0, config.time_max)
     ax.set_ylim(0.0, config.road_length)
